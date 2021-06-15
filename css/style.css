@@ -81,46 +81,78 @@ nav li a {
 /* inzio main */
 
 .contenent {
-    background-color: #6581A6;
     width: 100%;
 }
 
 .box {
-    height: 80px;
-    margin-bottom: 20px;
-    background-color: #B0BAD9;
+    margin-bottom: 40px;
 }
 
 .sidbar {
     float: left;
-    padding: 10px;
     margin-bottom: 20px;
     width: calc(100% / 5);
-    background-color: #B0BAD9;
+    position: relative;
 }
 
 .center {
     float: left;
     margin: 0 20px;
-    padding: 10px;
     width: calc(( 100% / 5) * 3 - 40px);
-    background-color: #B0BAD9;
+    position: relative;
+}
+
+.foto {
+    border-radius: 20px;
+    position: relative;
+}
+
+.scuro {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    inset: 0px;
+    position: absolute;
+}
+
+.foto img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.articol {
+    margin-top: 20px;
 }
 
 p {
-    color: white;
-    
-    
+    color: white;  
+}
+
+#titolo {
+    color: rgb(66, 66, 66);
+    margin-bottom: 20px;
+}
+
+.grey {
+    color: gray;
 }
 
 /* fine main */
 
 /* inzio footer */
 
-.end {
-    height: 80px;
-    margin-top: 40px;
-    background-color: #D5D2D9;
+.end { 
+    margin-top: 40px; 
+}
+
+.cuore {
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+
+.red {
+    color: red;
 }
 
 /* inzio footer */
